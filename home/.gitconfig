@@ -1,0 +1,14 @@
+[user]
+	email = dskhaller@gmail.com
+	name = Dan Haller
+[core]
+	editor = subl -n -w
+	autocrlf = true
+
+[alias]
+	st = status
+	co = checkout
+	unstage = reset HEAD --
+
+[rerere]
+	enabled = true
