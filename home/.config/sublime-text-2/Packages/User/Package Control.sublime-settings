@@ -1,0 +1,17 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AngularJS",
+		"AngularJS Snippets",
+		"GitGutter",
+		"Markdown Preview",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter"
+	],
+	"repositories":
+	[
+		"https://github.com/danhaller/SublimeLime.git"
+	]
+}
