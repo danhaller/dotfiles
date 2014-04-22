@@ -11,3 +11,5 @@ alias g='git'
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 source /usr/share/doc/pkgfile/command-not-found.bash
+
+homeshick --quiet refresh

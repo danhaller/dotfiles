@@ -3,7 +3,7 @@
 	name = Dan Haller
 [core]
 	editor = subl -n -w
-	autocrlf = true
+	autocrlf = false
 
 [alias]
 	st = status
