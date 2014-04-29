@@ -2,6 +2,10 @@
 	"color_scheme": "Packages/Color Scheme - Default/SublimeLime/SublimeLime.tmTheme.chback",
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown Preview",
+		"GitGutter",
+		"Color Highlighter",
+		"Nodejs"
 	]
 }
