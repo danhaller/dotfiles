@@ -6,6 +6,7 @@
 		"Markdown Preview",
 		"GitGutter",
 		"Color Highlighter",
-		"Nodejs"
+		"Nodejs",
+		"SublimeCodeIntel"
 	]
 }
