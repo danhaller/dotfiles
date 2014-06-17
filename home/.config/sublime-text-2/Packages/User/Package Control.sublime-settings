@@ -5,26 +5,17 @@
 		"Alignment",
 		"AngularJS",
 		"AngularJS Snippets",
-		"Bower",
-		"CoffeeScript",
 		"Color Highlighter",
 		"ColorPicker",
-		"Current Scope",
 		"GitGutter",
-		"Hacker News Reader",
 		"Markdown Preview",
 		"Nodejs",
 		"Package Control",
-		"SASS Build",
 		"Scalariform",
 		"ScalaTest",
-		"ScopeHunter",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeSBT",
-		"SublimeXiki",
-		"Theme - Pseudo OSX",
-		"Tomorrow Color Schemes"
+		"SublimeSBT"
 	],
 	"repositories":
 	[
