@@ -16,6 +16,8 @@ source /usr/share/zsh/scripts/antigen/antigen.zsh
 antigen bundle sindresorhus/pure
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle git
+antigen bundle npm
+
 
 source /usr/share/doc/pkgfile/command-not-found.zsh
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
