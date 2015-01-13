@@ -2,7 +2,7 @@
 	email = dskhaller@gmail.com
 	name = Dan Haller
 [core]
-	editor = subl -n -w
+	editor = vim
 	autocrlf = false
 
 [alias]
