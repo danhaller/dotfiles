@@ -12,12 +12,17 @@ zstyle :compinstall filename '$HOME/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+PATH=$PATH:/home/danh/.gem/ruby/2.1.0/gems
+
 source /usr/share/zsh/scripts/antigen/antigen.zsh
-antigen bundle sindresorhus/pure
+antigen use oh-my-zsh
+
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle git
 antigen bundle npm
-
+antigen bundle rbenv
+antigen bundle sindresorhus/pure
 
 source /usr/share/doc/pkgfile/command-not-found.zsh
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
