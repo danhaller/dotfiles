@@ -21,7 +21,7 @@ antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle git
 antigen bundle npm
-antigen bundle rbenv
+antigen bundle lein
 antigen bundle sindresorhus/pure
 
 source /usr/share/doc/pkgfile/command-not-found.zsh
