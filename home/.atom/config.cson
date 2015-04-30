@@ -1,6 +1,4 @@
 'global':
-  'exception-reporting':
-    'userId': '08897b74-f555-aaa0-4b07-8e3a0ee54f6d'
   'welcome':
     'showOnStartup': false
   'remember-session':
@@ -10,8 +8,6 @@
     'height': 960
     'path': '/home/danh/code/play/clojure-noob'
     'treeWidth': 200
-  'metrics':
-    'userId': '5ec791131624c66ce35a0406dce16b4152522ca2'
   'editor':
     'fontFamily': 'Consolas, Inconsolata, Monaco, Courier New, Courier'
     'fontSize': 14
