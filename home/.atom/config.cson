@@ -1,28 +1,30 @@
-'global':
-  'welcome':
-    'showOnStartup': false
-  'editor':
-    'fontFamily': 'Consolas, Inconsolata, Monaco, Courier New, Courier'
-    'fontSize': 14
-    'invisibles':
-      'tab': '→'
-    'showInvisibles': true
-  'core':
-    'themes': [
-      'neutron-ui'
-      'leaf-syntax'
+"*":
+  welcome:
+    showOnStartup: false
+  editor:
+    fontFamily: "Consolas, Inconsolata, Monaco, Courier New, Courier"
+    fontSize: 14
+    invisibles:
+      tab: "→"
+    showInvisibles: true
+  core:
+    themes: [
+      "neutron-ui"
+      "leaf-syntax"
     ]
-    'disabledPackages': [
-      'metrics'
-      'tabs'
-      'tree-view'
+    disabledPackages: [
+      "metrics"
+      "tabs"
+      "tree-view"
     ]
-  'tabs':
-    'showIcons': true
-  'tree-view':
-    'hideVcsIgnoredFiles': false
-    'hideIgnoredNames': false
-    'showOnRightSide': false
-    'sortFoldersBeforeFiles': true
-  'file-icons':
-    'coloured': false
+  tabs:
+    showIcons: true
+  "tree-view":
+    hideVcsIgnoredFiles: false
+    hideIgnoredNames: false
+    showOnRightSide: false
+    sortFoldersBeforeFiles: true
+  "file-icons":
+    coloured: false
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
