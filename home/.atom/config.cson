@@ -28,3 +28,5 @@
     coloured: false
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
+  "linter-jscs":
+    onlyConfig: true
