@@ -2,9 +2,13 @@
   welcome:
     showOnStartup: false
   editor:
-    fontFamily: "Consolas, Inconsolata, Monaco, Courier New, Courier"
-    fontSize: 14
+    fontSize: 12
+    fontFamily: "Droid Sans Mono, Monaco, Inconsolata, Consolas, Courier New, Courier"
+    tabLength: 4
+    softTabs: false
     invisibles:
+      cr: ""
+      eol: ""
       tab: "→"
     showInvisibles: true
   core:
