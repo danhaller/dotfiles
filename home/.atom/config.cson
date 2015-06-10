@@ -3,7 +3,7 @@
     showOnStartup: false
   editor:
     fontFamily: "Consolas, Inconsolata, Monaco, Courier New, Courier"
-    fontSize: 14
+    fontSize: 13
     invisibles:
       tab: "→"
     showInvisibles: true
@@ -14,19 +14,15 @@
     ]
     disabledPackages: [
       "metrics"
-      "tabs"
-      "tree-view"
+      "exception-reporting"
     ]
   tabs:
     showIcons: true
-  "tree-view":
-    hideVcsIgnoredFiles: false
-    hideIgnoredNames: false
-    showOnRightSide: false
-    sortFoldersBeforeFiles: true
   "file-icons":
     coloured: false
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
   "linter-jscs":
     onlyConfig: true
+  linter:
+    {}
