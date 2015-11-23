@@ -28,5 +28,10 @@
     disableWhenNoEslintrcFileInPath: true
   "linter-jscs":
     onlyConfig: true
-  linter:
-    {}
+  linter: {}
+  "atom-ternjs": {}
+  "atom-color-highlight": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "ide-haskell": {}
+  "language-elm": {}

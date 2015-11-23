@@ -14,7 +14,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-PATH=$PATH:/home/danh/.gem/ruby/2.1.0/gems
+PATH=$PATH:~/.gem/ruby/2.1.0/gems
+PATH=$PATH:~/node/bin
 
 alias g='git'
 alias ls='ls --color=auto'
