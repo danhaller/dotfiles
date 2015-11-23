@@ -34,4 +34,8 @@
   "tree-view":
     hideVcsIgnoredFiles: true
   "ide-haskell": {}
-  "language-elm": {}
+  "language-elm":
+    elmOraclePath: '''
+      ~/node/bin/elm-oracle
+      
+    '''
