@@ -34,13 +34,13 @@
   "ide-haskell": {}
   "language-elm":
     elmOraclePath: '''
-      /home/dan/node/bin/elm-oracle
+      ~/node/bin/elm-oracle
       
     '''
   "proto-repl": {}
   "linter-elm-make":
     elmMakeExecutablePath: '''
-      /home/dan/node/bin/elm-make
+      ~/node/bin/elm-make
       
     '''
 ".elm.source":
