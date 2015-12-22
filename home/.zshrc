@@ -36,6 +36,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle git
 antigen bundle npm
 antigen bundle lein
+antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
 
 eval "dircolors ~/.config/terminal/dircolors-solarized/dircolors.256dark"

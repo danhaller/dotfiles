@@ -2,23 +2,21 @@
   welcome:
     showOnStartup: false
   editor:
-    fontSize: 12
     fontFamily: "Droid Sans Mono, Monaco, Inconsolata, Consolas, Courier New, Courier"
     tabLength: 4
     softTabs: false
     invisibles:
-      cr: ""
-      eol: ""
       tab: "→"
     showInvisibles: true
   core:
     themes: [
       "neutron-ui"
-      "leaf-syntax"
+      "base16-ocean-dark-spacegray"
     ]
     disabledPackages: [
       "metrics"
       "exception-reporting"
+      "proto-repl"
     ]
   tabs:
     showIcons: true
@@ -36,6 +34,15 @@
   "ide-haskell": {}
   "language-elm":
     elmOraclePath: '''
-      ~/node/bin/elm-oracle
+      /home/dan/node/bin/elm-oracle
       
     '''
+  "proto-repl": {}
+  "linter-elm-make":
+    elmMakeExecutablePath: '''
+      /home/dan/node/bin/elm-make
+      
+    '''
+".elm.source":
+  editor:
+    autoIndentOnPaste: true
