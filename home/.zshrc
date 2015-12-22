@@ -39,6 +39,6 @@ antigen bundle lein
 antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
 
-eval "dircolors ~/.config/terminal/dircolors-solarized/dircolors.256dark"
+eval "`dircolors ~/.config/terminal/dircolors-solarized/dircolors.256dark`"
 
 homeshick --quiet refresh
