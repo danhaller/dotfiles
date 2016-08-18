@@ -1,48 +1,50 @@
 "*":
-  welcome:
-    showOnStartup: false
-  editor:
-    fontFamily: "Droid Sans Mono, Monaco, Inconsolata, Consolas, Courier New, Courier"
-    tabLength: 4
-    softTabs: false
-    invisibles:
-      tab: "→"
-    showInvisibles: true
+  "atom-color-highlight": {}
+  "atom-ternjs": {}
   core:
-    themes: [
-      "neutron-ui"
-      "base16-ocean-dark-spacegray"
-    ]
     disabledPackages: [
       "metrics"
       "exception-reporting"
       "proto-repl"
+      "linter-jscs"
     ]
-  tabs:
-    showIcons: true
+    themes: [
+      "neutron-ui"
+      "base16-ocean-dark-spacegray"
+    ]
+  editor:
+    fontFamily: "Droid Sans Mono, Monaco, Inconsolata, Consolas, Courier New, Courier"
+    fontSize: 13
+    invisibles:
+      tab: "→"
+    showInvisibles: true
+    softTabs: false
+    tabLength: 4
   "file-icons":
     coloured: false
-  "linter-eslint":
-    disableWhenNoEslintrcFileInPath: true
-  "linter-jscs":
-    onlyConfig: true
-  linter: {}
-  "atom-ternjs": {}
-  "atom-color-highlight": {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
   "ide-haskell": {}
   "language-elm":
-    elmOraclePath: '''
-      ~/node/bin/elm-oracle
-      
-    '''
-  "proto-repl": {}
+    elmOraclePath: "~/node/bin/elm-oracle"
+  linter: {}
   "linter-elm-make":
-    elmMakeExecutablePath: '''
-      ~/node/bin/elm-make
-      
-    '''
+    elmMakeExecutablePath: "/home/dan/node/bin/elm-make"
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+  "linter-flake8":
+    projectConfigFile: ".flake8"
+  "linter-jscs":
+    onlyConfig: true
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "proto-repl": {}
+  tabs:
+    showIcons: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
 ".elm.source":
+  editor:
+    autoIndentOnPaste: true
+".python.source":
   editor:
     autoIndentOnPaste: true
