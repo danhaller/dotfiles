@@ -14,7 +14,7 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-PATH=$PATH:~/.gem/ruby/2.1.0/gems
+PATH=$PATH:~/.gem/ruby/2.3.0/bin
 PATH=$PATH:~/node/bin
 
 alias g='git'
