@@ -5,7 +5,6 @@
     disabledPackages: [
       "metrics"
       "exception-reporting"
-      "proto-repl"
       "linter-jscs"
     ]
     themes: [
@@ -14,7 +13,6 @@
     ]
   editor:
     fontFamily: "Droid Sans Mono, Monaco, Inconsolata, Consolas, Courier New, Courier"
-    fontSize: 13
     invisibles:
       tab: "→"
     showInvisibles: true
@@ -22,6 +20,8 @@
     tabLength: 4
   "file-icons":
     coloured: false
+  fonts:
+    fontFamily: "Hasklig"
   "ide-haskell": {}
   "language-elm":
     elmOraclePath: "~/node/bin/elm-oracle"
