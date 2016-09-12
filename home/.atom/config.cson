@@ -36,6 +36,8 @@
     onlyConfig: true
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
+  "linter-scss-lint":
+    disableWhenNoConfigFileInPath: true
   "proto-repl": {}
   tabs:
     showIcons: true
