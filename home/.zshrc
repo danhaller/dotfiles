@@ -20,6 +20,10 @@ PATH=$PATH:~/node/bin
 alias g='git'
 alias ls='ls --color=auto'
 
+# Docker
+alias dpurgec='sudo docker stop $(docker ps -a -q) && sudo docker rm $(docker ps -a -q)'
+alias dpurgei='sudo docker rmi $(docker images -q);'
+
 #shellcheck source=/dev/null
 source /usr/share/doc/pkgfile/command-not-found.zsh
 #shellcheck source=/dev/null
