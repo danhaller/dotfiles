@@ -7,6 +7,7 @@
       "exception-reporting"
       "linter-jscs"
     ]
+    telemetryConsent: "no"
     themes: [
       "neutron-ui"
       "base16-ocean-dark-spacegray"
