@@ -18,6 +18,7 @@ PATH=$PATH:~/.gem/ruby/2.3.0/bin
 PATH=$PATH:~/node/bin
 
 alias g='git'
+alias tf='terraform'
 alias ls='ls --color=auto'
 
 # Docker
@@ -38,6 +39,7 @@ source $HOME/.homesick/repos/homeshick/homeshick.sh
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions src
+antigen bundle terraform
 antigen bundle git
 antigen bundle npm
 antigen bundle lein
@@ -45,5 +47,6 @@ antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
 
 eval "`dircolors ~/.config/terminal/dircolors-solarized/dircolors.256dark`"
+sh ~/.config/terminal/guake-colors-solarized/set_dark.sh
 
 homeshick --quiet refresh
