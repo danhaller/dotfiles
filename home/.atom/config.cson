@@ -17,8 +17,6 @@
     invisibles:
       tab: "→"
     showInvisibles: true
-    softTabs: false
-    tabLength: 4
   "file-icons":
     coloured: false
   fonts:
@@ -31,14 +29,14 @@
     elmMakeExecutablePath: "/home/dan/node/bin/elm-make"
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
-  "linter-flake8":
-    projectConfigFile: ".flake8"
+  "linter-flake8": {}
   "linter-jscs":
     onlyConfig: true
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
   "linter-scss-lint":
     disableWhenNoConfigFileInPath: true
+  "node-debugger": {}
   "proto-repl": {}
   tabs:
     showIcons: true
@@ -48,6 +46,9 @@
 ".elm.source":
   editor:
     autoIndentOnPaste: true
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 4
 ".python.source":
   editor:
     autoIndentOnPaste: true
