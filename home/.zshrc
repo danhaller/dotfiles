@@ -28,7 +28,7 @@ alias dpurgei='sudo docker rmi $(docker images -q);'
 #shellcheck source=/dev/null
 source /usr/share/doc/pkgfile/command-not-found.zsh
 #shellcheck source=/dev/null
-source /usr/share/zsh/scripts/antigen/antigen.zsh
+source /usr/share/zsh/share/antigen.zsh
 #shellcheck source=/dev/null
 source /usr/share/doc/pkgfile/command-not-found.bash
 #shellcheck source=/dev/null
