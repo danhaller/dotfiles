@@ -13,9 +13,12 @@ zstyle :compinstall filename '$HOME/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+#
+export GOPATH=~/go
 
 PATH=$PATH:~/.gem/ruby/2.3.0/bin
 PATH=$PATH:~/node/bin
+PATH=$PATH:~/go/bin
 
 alias g='git'
 alias tf='terraform'
@@ -50,3 +53,4 @@ eval "`dircolors ~/.config/terminal/dircolors-solarized/dircolors.256dark`"
 sh ~/.config/terminal/guake-colors-solarized/set_dark.sh
 
 homeshick --quiet refresh
+source /usr/share/nvm/init-nvm.sh
