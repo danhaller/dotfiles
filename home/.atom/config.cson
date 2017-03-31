@@ -21,6 +21,7 @@
     coloured: false
   fonts:
     fontFamily: "Hasklig"
+  hclfmt: {}
   "ide-haskell": {}
   "language-elm":
     elmOraclePath: "~/node/bin/elm-oracle"
