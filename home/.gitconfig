@@ -15,4 +15,6 @@
 [rerere]
 	enabled = true
 [push]
-	default = simple
+	default = current
+[pull]
+	default = current
