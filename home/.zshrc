@@ -48,6 +48,7 @@ antigen bundle npm
 antigen bundle lein
 antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
+antigen apply
 
 eval "`dircolors ~/.config/terminal/dircolors-solarized/dircolors.256dark`"
 sh ~/.config/terminal/guake-colors-solarized/set_dark.sh
