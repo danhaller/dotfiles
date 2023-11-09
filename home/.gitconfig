@@ -21,3 +21,5 @@
 	default = current
 [release]
 	autoStash = true
+[init]
+	defaultBranch = main

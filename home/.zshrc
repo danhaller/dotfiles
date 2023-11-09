@@ -17,12 +17,13 @@ compinit
 export GOPATH=~/go
 
 PATH=$PATH:~/.gem/ruby/2.3.0/bin
+PATH=$PATH:~/.bun/bin
 PATH=$PATH:~/node/bin
 PATH=$PATH:~/go/bin
 
 alias g='git'
 alias tf='terraform'
-alias ls='ls --color=auto'
+alias ls='ls -G'
 
 # Docker
 alias dpurgec='sudo docker stop $(docker ps -a -q) && sudo docker rm $(docker ps -a -q)'
@@ -31,6 +32,7 @@ alias dpurgei='sudo docker rmi $(docker images -q);'
 #shellcheck source=/dev/null
 source /usr/share/doc/pkgfile/command-not-found.zsh
 #shellcheck source=/dev/null
+source $(brew --prefix)/share/antigen/antigen.zsh
 source /usr/share/zsh/share/antigen.zsh
 #shellcheck source=/dev/null
 source /usr/share/doc/pkgfile/command-not-found.bash
@@ -42,7 +44,6 @@ source $HOME/.homesick/repos/homeshick/homeshick.sh
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions src
-antigen bundle terraform
 antigen bundle git
 antigen bundle npm
 antigen bundle lein
@@ -54,4 +55,11 @@ eval "`dircolors ~/.config/terminal/dircolors-solarized/dircolors.256dark`"
 sh ~/.config/terminal/guake-colors-solarized/set_dark.sh
 
 homeshick --quiet refresh
-source /usr/share/nvm/init-nvm.sh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
+[ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+
+# opam configuration
+[[ ! -r /Users/dhaller/.opam/opam-init/init.zsh ]] || source /Users/dhaller/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+
