@@ -21,6 +21,8 @@ PATH=$PATH:~/.bun/bin
 PATH=$PATH:~/node/bin
 PATH=$PATH:~/go/bin
 
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
+
 alias g='git'
 alias tf='terraform'
 alias ls='ls -G'
@@ -54,6 +56,9 @@ antigen apply
 eval "`dircolors ~/.config/terminal/dircolors-solarized/dircolors.256dark`"
 sh ~/.config/terminal/guake-colors-solarized/set_dark.sh
 
+autoload -U promptinit; promptinit
+prompt pure
+
 homeshick --quiet refresh
 
 export NVM_DIR="$HOME/.nvm"
@@ -63,3 +68,11 @@ export NVM_DIR="$HOME/.nvm"
 # opam configuration
 [[ ! -r /Users/dhaller/.opam/opam-init/init.zsh ]] || source /Users/dhaller/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
+PATH=$(pyenv root)/shims:$PATH
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# bun completions
+[ -s "/Users/dhaller/.bun/_bun" ] && source "/Users/dhaller/.bun/_bun"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
