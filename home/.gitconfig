@@ -17,11 +17,23 @@
 	enabled = true
 [push]
 	default = current
+	autoSetupRemote = true
+	followTags = true
 [pull]
 	default = current
+	rebase = true
 [release]
 	autoStash = true
 [init]
 	defaultBranch = main
 [credential]
 	helper = osxkeychain
+[diff]
+        external = difft
+	algorithm = histogram
+[help]
+	autocorrect = prompt
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true

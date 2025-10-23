@@ -23,6 +23,9 @@ PATH=$PATH:~/go/bin
 
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 
+# Difftastic colours for solarized
+export DFT_BACKGROUND=light
+
 alias g='git'
 alias tf='terraform'
 alias ls='ls -G'
