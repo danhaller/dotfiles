@@ -7,13 +7,10 @@ setopt appendhistory beep extendedglob nomatch notify
 unsetopt autocd
 bindkey -e
 # End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
+
+# The following lines were added by compinstall (completions)
 zstyle :compinstall filename '$HOME/.zshrc'
 
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
-#
 export GOPATH=~/go
 
 PATH=$PATH:~/.gem/ruby/2.3.0/bin
