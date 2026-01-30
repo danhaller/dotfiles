@@ -1,6 +1,6 @@
 ---
 description: Prepare context for a new chat session when this one is degraded or hitting limits.
-model: claude-opus-4.5
+model: opus4.5
 ---
 
 ## Instructions
